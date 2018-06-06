@@ -59,6 +59,6 @@ def main():
     lista_numeros = converte_lista_numeros(lista_linhas)
     media, mediana, tamanho = analise_dados(lista_numeros)
     salva_resultado(media, mediana, tamanho)
-    faz_grafico(lista_numeros)
+    faz_grafico(lista_numeros) #mais documentacao!
     
 main()
